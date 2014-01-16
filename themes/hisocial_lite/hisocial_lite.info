@@ -4,9 +4,14 @@ base theme = omega
 screenshot = screenshot.png
 engine = phptemplate
 core = 7.x
-stylesheets[all][] = css/reset.css
-stylesheets[all][] = css/hacks.css
-stylesheets[all][] = css/styles.css
+
+; Stylesheets
+stylesheets[all][] = css/hisocial_lite.normalize.css
+stylesheets[all][] = css/hisocial_lite.hacks.css
+stylesheets[all][] = css/hisocial_lite.styles.css
+stylesheets[all][] = css/hisocial_lite.no-query.css
+
+; Regions
 regions[header] = Header
 regions[navigation] = Navigation
 regions[highlighted] = Highlighted
@@ -16,6 +21,7 @@ regions[sidebar_first] = First Sidebar
 regions[sidebar_second] = Second Sidebar
 regions[footer] = Footer
 
+; Settings
 settings[toggle_logo] = 1
 settings[toggle_name] = 1
 settings[toggle_slogan] = 1
