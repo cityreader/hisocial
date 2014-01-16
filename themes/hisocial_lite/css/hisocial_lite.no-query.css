@@ -1,0 +1,142 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  *behavior: url('../behaviors/box-sizing/boxsizing.php');
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  *behavior: url('../behaviors/box-sizing/boxsizing.php');
+}
+
+img, media {
+  max-width: 100%;
+}
+
+.block--system-main-menu {
+  font-size: 1em;
+  text-transform: uppercase;
+  margin-top: 2.5em;
+}
+.block--system-main-menu a {
+  color: #fff;
+  text-decoration: none;
+}
+.block--system-main-menu a:hover, .block--system-main-menu a.active {
+  color: #20b3ff;
+}
+.block--system-main-menu a:active {
+  color: #009cec;
+}
+.block--system-main-menu li {
+  display: inline;
+  display: inline-block;
+  list-style: none;
+  list-style-image: none;
+  margin: 0 1em;
+}
+
+.clearfix {
+  /* for IE 6/7 */
+  *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");
+  /* non-JS fallback */
+  *zoom: 1;
+}
+.clearfix:before, .clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+.clearfix:after {
+  clear: both;
+}
+
+body {
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+
+a {
+  color: #20b3ff;
+}
+a:hover, a:active {
+  color: #007ab9;
+}
+
+.btn {
+  color: #007ab9;
+  background: #fff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px;
+  -webkit-box-shadow: 0 5px 0 #007ab9;
+  -moz-box-shadow: 0 5px 0 #007ab9;
+  box-shadow: 0 5px 0 #007ab9;
+  text-decoration: none;
+  display: inline;
+  display: inline-block;
+  margin-bottom: 3px;
+  font-weight: bold;
+}
+.btn.btn-white {
+  background: #fff;
+}
+.btn:hover, .btn:active {
+  margin-top: 3px;
+  margin-bottom: 0;
+  background-color: yellow;
+  -webkit-box-shadow: 0 2px 0 #007ab9;
+  -moz-box-shadow: 0 2px 0 #007ab9;
+  box-shadow: 0 2px 0 #007ab9;
+}
+
+.l-constrained,
+.l-region--highlighted,
+.l-region--footer {
+  max-width: 1030px;
+}
+
+.l-header {
+  background-color: #333333;
+  height: 6.25em;
+}
+
+.l-branding {
+  padding-top: 1.25em;
+}
+
+.site-branding__logo {
+  width: auto;
+}
+
+.site-branding__name,
+.site-branding__slogan {
+  display: none;
+}
+
+.l-region--navigation {
+  width: auto;
+}
+
+.l-footer-wrapper {
+  background-color: #333333;
+  color: #ccc;
+}
+
+/* Footer copyright */
+.block--block-4 {
+  text-align: center;
+}
+
+.panel-pane {
+  clear: both;
+  font-size: 1em;
+}
+
+/* No files to import found in components/**\/* */

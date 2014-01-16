@@ -1,0 +1,27 @@
+.block--system-main-menu {
+  font-size: em(16px);
+  text-transform: uppercase;
+  margin-top: em(40px);
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    
+    &:hover,
+    &.active {
+      color: $link_color;
+    }
+    
+    &:active {
+      color: darken($link_color, 10%);;
+    }
+  }
+  
+  li {
+    display: inline;
+    display: inline-block;
+    list-style: none;
+    list-style-image: none;
+    margin: 0 1em;
+  }
+}
