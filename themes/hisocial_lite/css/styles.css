@@ -1,0 +1,258 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_root\.scss}line{font-family:\000034}}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_root\.scss}line{font-family:\000039}}
+.clearfix {
+  overflow: hidden;
+  *zoom: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\000031}}
+body {
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\000035}}
+a {
+  color: #20b3ff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\000039}}
+a:hover, a:active {
+  color: #007ab9;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\0000313}}
+.btn {
+  color: #007ab9;
+  background: #fff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px;
+  -webkit-box-shadow: 0 5px 0 #007ab9;
+  -moz-box-shadow: 0 5px 0 #007ab9;
+  box-shadow: 0 5px 0 #007ab9;
+  text-decoration: none;
+  display: inline;
+  display: inline-block;
+  margin-bottom: 3px;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\0000325}}
+.btn.btn-white {
+  background: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\0000330}}
+.btn:hover, .btn:active {
+  margin-top: 3px;
+  margin-bottom: 0;
+  background-color: yellow;
+  -webkit-box-shadow: 0 2px 0 #007ab9;
+  -moz-box-shadow: 0 2px 0 #007ab9;
+  box-shadow: 0 2px 0 #007ab9;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\0000341}}
+.l-constrained,
+.l-region--highlighted,
+.l-region--footer {
+  max-width: 1030px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\0000344}}
+.l-header {
+  background-color: #333333;
+  height: 6.25em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\0000348}}
+.l-branding {
+  padding-top: 1.25em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\0000351}}
+.site-branding__logo {
+  width: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\0000355}}
+.site-branding__name,
+.site-branding__slogan {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\0000358}}
+.l-region--navigation {
+  width: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\0000361}}
+.l-footer-wrapper {
+  background-color: #333333;
+  color: #ccc;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\0000366}}
+.block--system-main-menu {
+  font-size: 1em;
+  text-transform: uppercase;
+  margin-top: 2.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\0000371}}
+.block--system-main-menu a {
+  color: #fff;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\0000376}}
+.block--system-main-menu a:hover, .block--system-main-menu a.active {
+  color: #20b3ff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\0000380}}
+.block--system-main-menu a:active {
+  color: #009cec;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\0000385}}
+.block--system-main-menu li {
+  display: inline;
+  display: inline-block;
+  list-style: none;
+  list-style-image: none;
+  margin: 0 1em;
+}
+
+/* Footer copyright */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\0000395}}
+.block--block-4 {
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\0000399}}
+.panel-pane {
+  clear: both;
+  font-size: 1em;
+}
+
+@media (min-width: 70em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\00003105}}
+  .panel-pane {
+    background: #fff;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\00003108}}
+  .panel-pane .image {
+    text-align: center;
+    padding: 0 2em;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\00003113}}
+  .panel-pane .text {
+    padding: 1em 2em;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\00003115}}
+  .panel-pane .text p {
+    line-height: 1.5;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\00003121}}
+  .pane-small-business-solution {
+    background: #FFF;
+    margin-bottom: 36px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\00003125}}
+  .pane-small-business-solution .image {
+    width: 35%;
+    float: left;
+    margin-top: 1.5em;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\00003132}}
+  .pane-small-business-solution .text {
+    margin-left: 35%;
+    background: #20B3FF;
+    color: #FFF;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\00003138}}
+  .pane-small-business-solution .buttons {
+    text-align: right;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\00003143}}
+  .pane-web-design {
+    padding: 3em 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\00003146}}
+  .pane-web-design .image {
+    width: 35%;
+    float: right;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\00003151}}
+  .pane-web-design .text {
+    margin-right: 35%;
+    padding-top: 1px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\00003157}}
+  .pane-system-integration {
+    padding: 5em 0;
+    border-top: solid 1px #CCC;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\00003161}}
+  .pane-system-integration .image {
+    width: 55%;
+    float: left;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\00003166}}
+  .pane-system-integration .text {
+    margin-left: 55%;
+    padding-top: 1px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\00003172}}
+  .pane-website-overhauls {
+    padding: 5em 0;
+    border-top: solid 1px #CCC;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\00003176}}
+  .pane-website-overhauls .image {
+    float: right;
+    width: 45%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\00003181}}
+  .pane-website-overhauls .text {
+    margin-right: 45%;
+    padding-top: 1px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\00003187}}
+  .pane-social-media {
+    background: #cee1e8;
+    padding: 2em 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\00003191}}
+  .pane-social-media .image {
+    float: left;
+    width: 45%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\00003196}}
+  .pane-social-media .text {
+    margin-left: 45%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\00003202}}
+  .pane-elearning .image {
+    float: right;
+    width: 50%;
+    margin-bottom: -5px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_typography\.scss}line{font-family:\00003208}}
+  .pane-elearning .text {
+    margin-right: 50%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Users\/Eric\/Sites\/hisocial\/themes\/hisocial_lite\/sass\/partials\/base\/_media\.scss}line{font-family:\000031}}
+img, media {
+  max-width: 100%;
+}
