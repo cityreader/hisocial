@@ -139,7 +139,7 @@ a:hover, a:active {
   font-size: 1em;
 }
 
-@media (min-width: 12) and (max-width: 70em) {
+@media (min-width: 70em) {
   .panel-pane {
     background: #fff;
   }
