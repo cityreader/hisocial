@@ -52,10 +52,6 @@ img, media {
   max-height: 50em;
 }
 
-.block--system-main-menu {
-  font-size: 1em;
-  text-transform: uppercase;
-}
 .block--system-main-menu .menu {
   clear: both;
   padding: 0;
@@ -73,6 +69,8 @@ img, media {
   list-style-image: none;
 }
 .block--system-main-menu .menu a {
+  font-size: 1em;
+  text-transform: uppercase;
   display: block;
   padding: .5em 2em;
   border-bottom: 1px solid #393D40;
@@ -139,6 +137,11 @@ img, media {
 
 body {
   font-family: Helvetica, Verdana, Arial, sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  background: transparent url('../images/diagonal.png') repeat left top;
 }
 
 a {
@@ -338,4 +341,34 @@ a:hover, a:active {
     margin-right: 50%;
   }
 }
-/* No files to import found in components/**\/* */
+body.node-type-case-study .l-content > h1 {
+  display: none;
+}
+body.node-type-case-study .moscone-header {
+  background: #fff;
+  padding: 1px 2em 1em;
+  margin-bottom: 1em;
+}
+body.node-type-case-study .pane-node-field-logo {
+  float: left;
+  width: 20%;
+}
+body.node-type-case-study .pane-node-title,
+body.node-type-case-study .pane-node-field-description {
+  margin-left: 20%;
+  clear: none;
+}
+body.node-type-case-study .pane-node-title p,
+body.node-type-case-study .pane-node-field-description p {
+  font-size: 18px;
+}
+body.node-type-case-study .pane-node-body {
+  padding: 1em 2em;
+}
+body.node-type-case-study .pane-node-field-images {
+  padding: 1em 2em;
+}
+body.node-type-case-study .pane-node-field-images .field__item {
+  text-align: center;
+  margin-bottom: .5em;
+}

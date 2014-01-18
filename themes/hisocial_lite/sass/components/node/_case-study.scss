@@ -1,0 +1,43 @@
+
+body.node-type-case-study {
+ .l-content > h1 {
+    display: none;
+  }
+
+  .moscone-header {
+    background: #fff;
+    padding: 1px 2em 1em;
+    margin-bottom: 1em;
+  }
+
+  .pane-node-field-logo {
+    float: left;
+    width: 20%;
+  }
+
+  .pane-node-title,
+  .pane-node-field-description {
+    margin-left: 20%;
+    clear: none;
+
+    p {
+    font-size: 18px;
+    }
+  }
+
+  .pane-node-title p,
+  .pane-node-field-description p {
+
+  }
+  .pane-node-body {
+    padding: 1em 2em;
+  }
+  .pane-node-field-images {
+    padding: 1em 2em;
+
+    .field__item {
+      text-align: center;
+      margin-bottom: .5em;
+    }
+  }
+}

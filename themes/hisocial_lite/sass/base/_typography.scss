@@ -1,5 +1,10 @@
 body {
   font-family: $text_font;
+  -webkit-text-size-adjust:100%;
+  -moz-text-size-adjust:100%;
+  -ms-text-size-adjust:100%;
+  text-size-adjust:100%;
+  background: transparent image-url("diagonal.png") repeat left top;
 }
 
 a {
