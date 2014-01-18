@@ -42,21 +42,29 @@ a {
   max-width: 1030px;
 }
 .l-header {
-  background-color: $darkgrey;
-  height: em(100px);
+  background-color: $grey;
+
+  .l-constrained {
+    width: 100%;
+  }
 }
 .l-branding {
-  padding-top: em(20px);
+  position: relative;
+  z-index: 1;
+  margin-left: 5%;
+  padding: .5em 0;
+  float: left;
 }
 .site-branding__logo {
   width: auto;
+
+  img {
+    height: 32px;
+  }
 }
 .site-branding__name,
 .site-branding__slogan {
   display: none;
-}
-.l-region--navigation {
-  width: auto;
 }
 .l-footer-wrapper {
   background-color: $darkgrey;
@@ -72,7 +80,29 @@ a {
   clear: both;
   font-size: em(16px);
 }
+@include breakpoint($tab) {
+  .l-header {
+    height: em(100px);
 
+    .l-constrained {
+      width: 95%;
+    }
+  }
+
+  .l-branding {
+    margin-top: .5em;
+  }
+  .site-branding__logo {
+    img {
+      height: 100%;
+    }
+  }
+
+  .l-region--navigation {
+    // Override style in hero.layout.css
+    width: 70% !important;
+  }
+}
 @include breakpoint($desk) {
   .panel-pane {
     background: #fff;

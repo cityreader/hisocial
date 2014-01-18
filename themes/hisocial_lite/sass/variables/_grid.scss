@@ -7,5 +7,5 @@ $gutter-width: 20px;
 $grid-padding: $gutter-width;
 $debug-grid: true;
 
-$tab: 44em;
-$desk: 70em;
+$tab: 44em, 'no-query' true;
+$desk: 70em, 'no-query' true;

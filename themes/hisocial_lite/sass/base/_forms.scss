@@ -1,0 +1,9 @@
+select, 
+button, 
+input[type="button"], 
+input[type="reset"], 
+input[type="submit"], 
+input[type="radio"], 
+input[type="checkbox"] {
+  cursor: pointer;
+}
