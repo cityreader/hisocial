@@ -140,7 +140,7 @@ body {
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  background: transparent url('../images/diagonal.png') repeat left top;
+  background: transparent url('../images/diagonal.png?1390020138') repeat left top;
 }
 
 a {
@@ -148,6 +148,10 @@ a {
 }
 a:hover, a:active {
   color: #007ab9;
+}
+
+img {
+  height: auto !important;
 }
 
 .btn {
@@ -216,6 +220,10 @@ a:hover, a:active {
 .l-footer-wrapper {
   background-color: #202020;
   color: #ccc;
+}
+
+.breadcrumb {
+  display: none;
 }
 
 /* Footer copyright */

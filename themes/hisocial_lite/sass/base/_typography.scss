@@ -15,6 +15,11 @@ a {
     color: darken($blue, 20%);
   }
 }
+
+img {
+  height: auto !important;
+}
+
 .btn {
   color: #007ab9;
   background: #fff;
@@ -76,6 +81,10 @@ a {
   color: #ccc;
 }
 
+.breadcrumb {
+  display: none;
+}
+
 /* Footer copyright */
 .block--block-4 {
   text-align: center;
@@ -85,6 +94,8 @@ a {
   clear: both;
   font-size: em(16px);
 }
+
+
 @include breakpoint($tab) {
   .l-header {
     height: em(100px);
@@ -107,8 +118,7 @@ a {
     // Override style in hero.layout.css
     width: 70% !important;
   }
-}
-@include breakpoint($desk) {
+
   .panel-pane {
     background: #fff;
 
