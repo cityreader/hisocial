@@ -3,10 +3,17 @@
     display: none;
   }
 
+  .boxton-content,
   .moscone-header {
     background: #fff;
     padding: 1px 2em 1em;
     margin-bottom: 1em;
+  }
+
+  .boxton-content {
+    .pane-node-field-logo {
+      margin-top: 1.5em;
+    }
   }
 
   .pane-node-field-logo {
