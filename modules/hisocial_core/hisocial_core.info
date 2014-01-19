@@ -1,0 +1,5 @@
+name = HiSocial Core
+description = Provides base configuration and structure for the hisocial.com.au
+core = 7.x
+package = HiSocial
+

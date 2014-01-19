@@ -1,0 +1,45 @@
+<?php
+
+/**
+ * Implements hook_field_attach_view_alter().
+ */
+function hisocial_core_field_attach_view_alter(&$output, $context) {
+
+  if ($context['entity_type'] != 'node') {
+    return; 
+  }
+  
+  $node = $context['entity'];
+
+  if ($node->type != 'case_study') {
+    return;
+  }
+  
+  foreach (element_children($output) as $field_name) {
+    if ($field_name == 'field_description') {
+      $element = &$output[$field_name];
+      
+      $options = array(
+        'attributes' => array(
+          'class' => array(
+            'btn',
+          ),
+        ),
+      );
+      
+      if (current_path() == 'case-study') {
+        $link = l(t('Read more'), 'node/' . $node->nid, $options);
+      }
+      else {
+        $website = $node->field_website[LANGUAGE_NONE][0]['value'];
+        $options['external'] = true;
+        $options['attributes']['target'] = '_blank';
+        $link = l(t('View website'), $website, $options);
+      }
+      $element['#link'] = $link;
+    }
+  }
+
+}
+
+

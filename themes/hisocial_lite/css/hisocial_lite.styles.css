@@ -351,10 +351,14 @@ img {
 .node-type-case-study .l-content > h1 {
   display: none;
 }
+.node-type-case-study .boxton-content,
 .node-type-case-study .moscone-header {
   background: #fff;
   padding: 1px 2em 1em;
   margin-bottom: 1em;
+}
+.node-type-case-study .boxton-content .pane-node-field-logo {
+  margin-top: 1.5em;
 }
 .node-type-case-study .pane-node-field-logo {
   float: left;
